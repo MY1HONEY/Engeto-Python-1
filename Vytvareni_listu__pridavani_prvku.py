@@ -48,3 +48,15 @@ print("Na indexu 2 je:",zamestnanci[2])
 
 # Vytisknout jméno na posledním indexu za string: 'Na <posledni_index> indexu je: '.
 print("Na poslednim indexu je:",zamestnanci[-1])
+
+# Vytiskni jména na indexu od 2 do 5 za string: 'V intervalu od 2 do 5 je: '.
+print("V intervalu od 2 do 5 je:",zamestnanci[2:5])
+
+# Vytiskni každý třetí prvek listu zamestnanci za string: 'Každý třetí člen je: '.
+print("Kazdy treti clen je:",zamestnanci[::3])
+
+# Vytiskni, na kterém indexu se nachází string 'Jakub' v listu zamestnanci za string: 'Jakub je na indexu: '.
+print("Jakub je na indexu:",zamestnanci.index("Jakub"))
+
+# Vytiskni, kolikrát se jméno 'Anežka' nachází v listu `zamestnanci za string: 'Počet jména Anežka v listu: '.
+print("Pocet jmena Anezka v listu:", zamestnanci.count("Anezka"))
