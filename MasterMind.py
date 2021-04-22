@@ -34,11 +34,11 @@ while mod:
     i = i + 1 
     if hrac == "konec":
         print("Konec hry.")
-        print("+------------------------------+")
-        print("|Celkem pocet pokusu:       ",i-1,"|")
-        print("|Pocet nespravnych pokusu:  ",n,"|")
-        print("|Pocet spravnych pokusu:    ",s,"|")
-        print("+------------------------------+")
+        print("+------Tve Skore-----+")
+        print("|Spravne          %2d |" % (s))
+        print("|Spatne           %2d |" % (n))
+        print("|Celkem           %2d |" % (i-1))
+        print("+--------------------+")
         mod = False
     elif int(hrac) != pocitac:
         print("Hadej znovu.")
